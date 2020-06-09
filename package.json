@@ -8,6 +8,7 @@
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.15",
